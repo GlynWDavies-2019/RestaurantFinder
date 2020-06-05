@@ -1,0 +1,50 @@
+/* Variables */
+
+:root {
+    --main-white: #F5F5F5;
+    --main-dark: #333333;
+    --main-red: #C92332;
+}
+
+body {
+    background-color: var(--main-white);
+    color: var(--main-dark);
+}
+
+.red-btn {
+    border-color: var(--main-red);
+    color: var(--main-red);
+    background: transparent;
+}
+
+.red-text {
+    color: var(--main-red);
+}
+
+.red-btn:hover {
+    background-color: var(--main-red);
+    color: var(--main-dark);
+}
+
+.form-control {
+    border-color: var(--main-red);
+}
+
+.feedback {
+    display: none;
+}
+
+.loader {
+    display: none;
+    margin: 0 auto;
+}
+
+.card p {
+    font-size: 0.7rem;
+}
+
+/* Dynamic Style */
+
+.show-item {
+    display: block;
+}

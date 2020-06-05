@@ -11,6 +11,76 @@
     <title>Restaurant Finder</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="./images/zomato-logo.png" alt="Zomato logo" class="d-block mx-auto">
+                <div class="feedback alert alert-danger text-center text-capitalize">Please enter city!</div>
+                <form id="search-form" class="my-4">
+                    <div class="form-group my-3">
+                        <select id="search-category" class="custom-select text-capitalize"></select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control text-capitalize" id="search-city" placeholder="Enter city...">
+                        <div class="input-group-append">
+                            <button class="btn red-btn text-capitalize">Search</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- <img src="./images/loader.gif" alt="Loader image" class="loader"> -->
+            </div>
+        </div>
+    </div>
+    <section class="py-5">
+        <div class="container">
+            <div class="row" id="restaurant-list">
+                <div class="col-11 mx-auto my-3">
+                    <div class="card">
+                        <div class="card">
+                            <div class="row py-3">
+                                <div class="col-5">
+                                    <img src="./images/food.jpeg" alt="Food image" class="img-fluid img-thumbnail">
+                                </div>
+                                <div class="col-5 text-capitalize">
+                                    <h6 class="text-uppercase pt-2 red-text"></h6>
+                                    <p>Address</p>
+                                </div>
+                                <div class="col-1">
+                                    <div class="badge badge-success">4.9</div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row py-3 ml-1">
+                                <div class="col-5 text-uppercase">
+                                    <p>Cousines</p>
+                                    <p>Cost for 2</p>
+                                </div>
+                                <div class="col-7 text-uppercase">
+                                    <p>Cousines</p>
+                                    <p>Cost</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row text-center no-gutters pb-3">
+                                <div class="col-6">
+                                    <a href="#" target="_blank" class="btn red-btn text-uppercase">
+                                        <i class="fas fa-book"></i>
+                                        Menu
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" target="_blank" class="btn red-btn text-uppercase">
+                                        <i class="fas fa-book"></i>
+                                        Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/app.js"></script>

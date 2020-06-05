@@ -6,10 +6,14 @@
     --main-red: #C92332;
 }
 
+/* Global Styles */
+
 body {
     background-color: var(--main-white);
     color: var(--main-dark);
 }
+
+/* Custom Styles */
 
 .red-btn {
     border-color: var(--main-red);

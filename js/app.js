@@ -38,6 +38,6 @@ class UI {
     const zomato = new Zomato();
     const ui = new UI();
     document.addEventListener('DOMContentLoaded',() => {
-        zomato.searchAPI().then(data => console.log(data));
+        zomato.searchAPI().then(data => console.log(data))
     });
 })();
